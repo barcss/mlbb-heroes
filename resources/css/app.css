@@ -15,9 +15,13 @@
 }
 
 .highlights {
-    @apply rounded-l-md border-l-emerald-600;
+    @apply border-l-green-500  border-l-4;
 }
 
 .highlights-underline {
     @apply hover:underline;
+}
+
+.card {
+    @apply bg-gray-200 p-3 mt-2 flex justify-between items-center rounded-md shadow-md
 }

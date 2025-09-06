@@ -2,5 +2,5 @@
 
 <div @class(['highlights' => $highlight, 'card'])>
     {{ $slot }}
-    <a {{ $attributes }} class="btn"> View Details</a>
+    <a {{ $attributes }} class="button-yellow"> View Details</a>
 </div>
