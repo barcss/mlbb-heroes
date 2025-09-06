@@ -1,0 +1,7 @@
+06-09-2025
+Dynamic content using blade
+Attributes directives 
+Dynamic routing using blade
+Passing data as second argument in view
+uses @apply to integrate tailwind utility in custom class
+slots usage for repetetive layout
