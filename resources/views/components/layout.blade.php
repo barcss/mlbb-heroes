@@ -9,7 +9,7 @@
 <body>
     <header class=" bg-gray-800 flex justify-center p-5">
         <div class="container flex justify-between items-center text-white">
-            <h1>MLBB Heroes</h1>
+            <h1>MLBB</h1>
         <nav class="">
             <a class="highlights-underline" href="/heroes">All heroes</a>
             <a class="highlights-underline" href="/heroes/add">Add new heroes</a>
@@ -17,8 +17,10 @@
         </div>
     </header>
 
-    <main class="container">
+    <main class="flex justify-center p-10">
+        <div class="container">
         {{ $slot }}
+        </div>
     </main>
 </body>
 </html>
