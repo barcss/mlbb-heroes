@@ -5,8 +5,10 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class hero extends Model
+class Hero extends Model
 {
+    protected $fillable = ['name','description', 'price', 'skills', 'role' ];
+
     /** @use HasFactory<\Database\Factories\HeroFactory> */
     use HasFactory;
 }
