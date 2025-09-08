@@ -5,3 +5,14 @@ Dynamic routing using blade
 Passing data as second argument in view
 uses @apply to integrate tailwind utility in custom class
 slots usage for repetetive layout
+
+07-09-25
+Create data using artisan tinker
+Fillable model column
+migration for making table schema using elequont 
+roleback, refresh migration
+controller
+using controller as 2nd args in route
+
+08-09-25
+cheat commit cause im offlin
