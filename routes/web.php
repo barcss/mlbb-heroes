@@ -8,12 +8,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/heroes', [HeroController::class, 'index']);
+Route::get('/heroes', [HeroController::class, 'index'])->name('heroes.index');
+Route::get('/heroes/add', [HeroController::class, 'add'])->name('heroes.add');
+Route::get('/heroes/{id}',[HeroController::class, 'view'])->name('heroes.view');
 
-Route::get('/heroes/add', function() {
-    return view('heroes.add');
-});
-
-Route::get('/heroes/{id}', function($id) {
-    return view('heroes.view', ['id' => $id]);
-});
