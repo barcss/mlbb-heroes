@@ -3,8 +3,8 @@
     
     @foreach($heroes as $hero) 
    
-            <x-card href="/heroes/{{ $hero['id']}}" :highlight="$hero['price'] < 32000">
-                <h3> {{ $hero['name']}}</h3>
+            <x-card href="{{ route('heroes.view', $hero->id) }}" :highlight="$hero['price'] < 32000">
+                <h3> {{ $hero['name'] }}</h3>
             </x-card>
     @endforeach
 </x-layout>
