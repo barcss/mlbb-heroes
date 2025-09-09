@@ -16,3 +16,11 @@ using controller as 2nd args in route
 
 08-09-25
 cheat commit cause im offlin
+
+09-09-25
+More about controller
+used findOrFail class in Hero Model to query data in related with its ID
+get and display data from controller and return view 2nd args
+uses array for function of route if contectedd to controller
+named route for dynamic routing if need change
+
