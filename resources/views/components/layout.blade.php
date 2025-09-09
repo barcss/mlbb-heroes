@@ -11,8 +11,8 @@
         <div class="container flex justify-between items-center text-white">
             <h1>MLBB</h1>
         <nav class="">
-            <a class="highlights-underline" href="/heroes">All heroes</a>
-            <a class="highlights-underline" href="/heroes/add">Add new heroes</a>
+            <a class="highlights-underline" href=" {{ route('heroes.index') }}">All heroes</a>
+            <a class="highlights-underline" href="{{ route('heroes.add') }}">Add new heroes</a>
         </nav>
         </div>
     </header>
