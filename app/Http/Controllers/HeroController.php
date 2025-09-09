@@ -13,7 +13,13 @@ class HeroController extends Controller
         return view('heroes.index', ["heroes" => $heroes]);
     }
 
+    public function view($id) {
+        $heroes = Hero::findOrFail($id);
+        return view('heroes.view', ['heroes' => $heroes]);
+    }
+
     public function add() {
+        return view('heroes.add');
 
     }
 }
