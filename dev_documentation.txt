@@ -24,3 +24,4 @@ get and display data from controller and return view 2nd args
 uses array for function of route if contectedd to controller
 named route for dynamic routing if need change
 
++1 VALO NA
