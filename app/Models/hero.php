@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Hero extends Model
 {
-    protected $fillable = ['name','description', 'price', 'skills', 'role' ];
+    protected $fillable = ['name','description', 'price', 'role' ];
 
     /** @use HasFactory<\Database\Factories\HeroFactory> */
     use HasFactory;
